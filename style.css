@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.menu-elements{
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo{
+  width: 47px;
+  height: 46px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 30px 0px;
+  flex-grow: 1;
+  gap: 40px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0px 30px;
+  
+  
+  
+}
+button{
+  background-color: #fcfcfc;
+  width: 200px;
+  height: 50px;
+  color: #131111;
+  border-radius: 200px;
+  padding: 10px 70px;
+  border: 1px solid #0b0a0a;
+  font-size: 18px;
+  
+  cursor: pointer;
+}
+.text-card{
+  font-style:normal;
+  font-size:22px ;
+  color: black;
+  font-weight: 200;
+}
+.price-card{
+  font-size: 18px;
+  color:black;
+  font-style: bold;
+  font-weight: 400;}
+  .card-img{
+    width: 200px;
+    height: 200px;
+  
+}
+.text{
+  color: black;
+  font-size: 42px;
+  font-style: normal;
+  text-align: center;
+}
+.main-text{
+  color: black;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 500px;
+  margin: 0;
+
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: cente;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+  
+}
+.container{
+  display: flex;
+  
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background:#C0B9DD top center/100% repeat url(https://learn.logikaschool.com/uploads/2023/11/phone_bg_0_1699843784.png);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+ .cards{
+   display: flex;
+   width:100%;
+   justify-content:space-between;
+   flex-wrap: wrap;
+   
+ } 
+.text-last-block{
+color: black;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+max-width: 400px;
+margin: 0;
+}
+.img-last-block{
+  width: 250px;
+  height: 150px;
+}
+.last-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color:#C0B9DD;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 40px 0px;
+  gap: 30px;
+}
